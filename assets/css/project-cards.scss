@@ -1,0 +1,94 @@
+/* purgecss start ignore */
+
+.project-card {
+  @apply relative;
+  @apply z-10;
+
+  padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
+
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+
+  --box-shadow-color: 0, 0, 0;
+
+  box-shadow:
+    0 2.8px 2.2px rgba(var(--box-shadow-color), 0.034),
+    0 6.7px 5.3px rgba(var(--box-shadow-color), 0.048),
+    0 12.5px 10px rgba(var(--box-shadow-color), 0.06),
+    0 22.3px 17.9px rgba(var(--box-shadow-color), 0.072),
+    0 41.8px 33.4px rgba(var(--box-shadow-color), 0.086),
+    0 100px 80px rgba(var(--box-shadow-color), 0.12)
+  ;
+
+  will-change: transform, box-shadow;
+  transition: transform 0.3s ease;
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    transition-duration: 0.8s;
+  }
+
+  @screen md {
+    width: 325px;
+  }
+
+  &__illustration {
+    position: relative;
+    margin-bottom: 1rem;
+
+    img {
+      max-width: none;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+
+    text-align: center;
+
+    svg {
+      @apply max-w-full;
+    }
+  }
+
+  &__description {
+    @apply leading-tight;
+
+    text-align: center;
+
+    padding-top: 1rem;
+  }
+
+  .illustration {
+    position: absolute;
+
+    transition: all 0.3s ease;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  &:hover {
+    .illustration {
+      transition-duration: 0.8s;
+    }
+  }
+}
+
+/* purgecss end ignore */

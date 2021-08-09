@@ -1,0 +1,117 @@
+{
+  "404": {
+    "not-found": "Ooops... Not found",
+    "home": "Home",
+    "description": "We are really sorry. It looks like, you're trying to access the page that has been deleted or never even existed."
+  },
+  "homepage": {
+    "meta": {
+      "title": "Devolt.One — Development Agency",
+      "shortName": "Devolt.One",
+      "description": "Devolt.One Development Agency helps companies improve efficiency and solve everyday tasks using unique techniques. Websites and Applications design and development. Custom CRM development, configuration and integration. Complex Services and E-Commerce",
+      "pageTitle": "Home"
+    },
+    "welcome": {
+      "firstLine": "Development",
+      "secondLine": "Agency"
+    },
+    "about": {
+      "aboutUs": "About Us"
+    },
+    "projects": {
+      "selected": "Selected",
+      "works": "Works",
+      "thingsWeProud": "Things we proud of"
+    },
+    "services": {
+      "attrs": {
+        "title": "Services",
+        "subtitle": "What we can do for you"
+      },
+      "readMore": "More about {service}"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact"
+    },
+    "inTouch": {
+      "getInTouch": "Get in Touch",
+      "whoWeWorkWith": "We work with companies, agencies, startups and individuals from all over the world to solve their tasks.",
+      "loveToHear": "We’d love to hear from you."
+    },
+    "gather": {
+      "startingAProject": "Starting a Project?",
+      "tellUs": "Tell us a few things about your project",
+      "things": [
+        "What is your company name?",
+        "What type of services do you need?",
+        "Do you have a deadline in mind?",
+        "What is your budget? Your budget dictates how much time and effort we can put forth to creating your project."
+      ]
+    },
+    "form": {
+      "name": "Name",
+      "email": "E-mail",
+      "message": "Few things about yout project",
+      "send": "Send",
+      "agreement": "By clicking \"@:contact.form.send\" button, you're agreeing to our",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "common": {
+    "contactUsCta": {
+      "haveAnIdea": "Have an <span class=\"text-primary-base\">idea</span> in mind?",
+      "trustUs": "You can trust us",
+      "question": "Want to create your website? <br class=\"hidden md:inline\" /> Need application development? Or CRM integration?",
+      "answer": "No matter how crazy is your idea. <br class=\"hidden md:inline\" /> We have a solution for you.",
+      "button": "Let’s work together"
+    },
+    "footer": {
+      "contact": "Contact",
+      "socialMedia": "Social media",
+      "designAndDevelopment": "Designed & Developed by",
+      "allRightsReserved": "All rights reserved"
+    }
+  },
+  "projects": {
+    "page": {
+      "technologies": "Technologies",
+      "year": "Year",
+      "see": "Open"
+    },
+    "index": {
+      "meta": {
+        "title": "Our projects"
+      }
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy policy"
+    }
+  },
+  "menu": {
+    "footer": {
+      "privacy": "@:privacy.meta.title"
+    },
+    "sidebar": {
+      "index": "Home",
+      "contact": "@:contact.meta.title",
+      "services": "@:services.meta.title",
+      "projects": "Our works"
+    },
+    "socials": {
+      "vk": "https://vk.com/devolt_one",
+      "instagram": "https://instagram.com/devolt.one",
+      "github": "https://github.com/devolt-one",
+      "twitter": "https://twitter.com/devolt_one"
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Services",
+      "subtitle": "What we can do for you"
+    }
+  }
+}
